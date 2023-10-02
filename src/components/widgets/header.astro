@@ -1,0 +1,43 @@
+---
+import GithubIcon from "../../assets/icons/github-icon.astro";
+import LinkedinIcon from "../../assets/icons/linkedin-icon.astro";
+import WhatsappIcon from "../../assets/icons/whatsapp-icon.astro";
+---
+
+<header
+  class="top-0 z-40 w-full bg-midnight/80 py-3 font-medium md:sticky md:py-7"
+>
+  <div class="mx-auto max-w-6xl p-4 md:p-0">
+    <div class="flex w-full flex-col items-center justify-between md:flex-row">
+      <a href="/">
+        <div
+          class="mb-4 flex items-center space-x-3 text-gray-300 transition-all duration-200 hover:-translate-y-0.5 hover:text-gray-100 md:mb-0"
+        >
+          <img
+            width="36"
+            height="36"
+            src="https://avatars.githubusercontent.com/u/89558154?s=40&v=4"
+            alt="Logo"
+            class="rounded-full"
+          />
+        </div>
+      </a>
+      <div
+        class="flex flex-col items-center justify-center md:flex-row md:space-x-7"
+      >
+        <div class="flex flex-row space-x-7">
+
+          <a href="https://github.com/PabloChavez03">
+            <GithubIcon />
+          </a>
+          <a href="https://linkedin.com/in/pablo-oscar-chavez">
+            <LinkedinIcon />
+          </a>
+          <a href="http://wa.me/5493442654108#">
+            <WhatsappIcon />
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
