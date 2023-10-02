@@ -1,0 +1,48 @@
+---
+import Card from '../widgets/card-project.astro';
+
+const PROJECTS = [{
+  title: 'Webictionary',
+  description: '📖 Diccionario web en inglés',
+  href: 'https://github.com/pheralb/frame',
+  techs: ['React', 'Typescript', 'Vite']
+},
+{
+  title: 'Ascend',
+  description: '🎨 Landing page de un emprendimiento.',
+  href: 'https://github.com/pheralb/frame',
+  techs: ['Astro', 'Typescript', 'Tailwind CSS']
+},
+{
+  title: 'PI Food',
+  description: '🍔 SPA de recetas.',
+  href: 'https://github.com/pheralb/frame',
+  techs: ['React', 'Redux', 'Node', 'Express', 'PostgreSQL', 'Sequelize']
+},
+{
+  title: 'Clothes 22',
+  description: '👕 E-commerce de ropa.',
+  href: 'https://github.com/pheralb/frame',
+  techs: ['React', 'Redux', 'Node', 'Express', 'PostgreSQL', 'Sequelize', 'Passport']
+},
+{
+  title: 'Marksite',
+  description: '🔠 App básica para escribir en Markdown.',
+  href: 'https://github.com/pheralb/frame',
+  techs: ['React', 'Typescript', 'Tailwind CSS']
+}]
+---
+
+<section id="projects" class="mx-auto max-w-6xl p-4 md:p-0">
+  <header class="mb-3 flex items-center space-x-4">
+    <h1 class="text-2xl font-semibold text-gray-300">Featured Projects</h1>
+  </header>
+
+  <main class="grid grid-cols-1 gap-4 sm:grid-cols-2">
+    {PROJECTS.map((project) => {
+      const {title, description, href, techs} = project
+
+      return <Card {title} {description} {href} {techs}/>
+    })}
+  </main>
+</section>
