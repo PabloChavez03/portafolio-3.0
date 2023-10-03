@@ -36,7 +36,7 @@ const { title, description, href, repositoryUrl, techs } = Astro.props
   </div><p class="text-gray-400">
     {description}
   </p><div class="mt-3 flex items-center justify-between">
-    <div class="flex items-center space-x-2">
+    <div class="grid grid-flow-col-dense space-x-2 md:flex md:items-center">
 			{techs.map((tech) => (
 				<BadgeTech title={tech} />
 			))}
