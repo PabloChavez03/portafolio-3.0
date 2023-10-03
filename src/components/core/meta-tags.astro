@@ -8,9 +8,9 @@ const { author, description, origin, canonical } = SITE
 <meta charset="UTF-8" />
 <meta name="description" content={description} />
 <meta name="viewport" content="width=device-width" />
-<link rel="icon" type="image/x-icon" href="/pablito.ico" />
 <meta name="generator" content={Astro.generator} />
-<meta name="canonical" href={canonical} />
+<meta name="canonical" content={canonical} />
+<meta name="image" property="og:image" content="/profile.webp" />
 <!-- OG Type -->
 <meta property="og:type" content="website">
 <meta property="og:title" content="Pablo Chávez">
@@ -27,6 +27,6 @@ const { author, description, origin, canonical } = SITE
 <meta name="image" property="twitter:image:alt" content="My personal website" />
 <meta name="twitter:creator" content="@chavezpablo_">
 <!-- Favicon -->
-<meta name="image" property="og:image" content="/pablitoCoofe.webp" />
+<link rel="icon" type="image/x-icon" href="/pablito.ico" />
 <!-- Title -->
 <title>Inicio | {author}</title>
