@@ -1,7 +1,7 @@
 # Portafolio 3.0
 
-## Tasks
+Nueva versión de mi portafolio web. Utiliza:
+- 🚀 Astro Build
+- ⚡ Tailwind CSS
 
-[ ] Agregar og types.
-[ ] Agregar logotipo.
-[ ] Ver algun otro diseño.
+Progresivamente ire añandiendo algunas features.
