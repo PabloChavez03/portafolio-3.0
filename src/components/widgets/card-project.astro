@@ -3,14 +3,15 @@ interface Props {
 	title: string
 	description: string
 	href: string
+  repositoryUrl: string
 	techs: Array<string>
 }
 
-import ArrowIcon from "../../assets/icons/arrow-link-icon.astro";
-import GithubIcon from "../../assets/icons/github-icon.astro";
-import BadgeTech from "../atoms/badge-tech.astro";
+import ArrowIcon from "../../assets/icons/arrow-link-icon.astro"
+import GithubIcon from "../../assets/icons/github-icon.astro"
+import BadgeTech from "../atoms/badge-tech.astro"
 
-const { title, description, href, techs } = Astro.props
+const { title, description, href, repositoryUrl, techs } = Astro.props
 ---
 
 <div class="flex flex-col rounded-md border border-neutral-800 p-4">
@@ -25,7 +26,7 @@ const { title, description, href, techs } = Astro.props
       </div></a
     ><div class="flex items-center space-x-3">
       <a
-        href={href}
+        href={repositoryUrl}
         target="_blank"
         title="Repository"
         >

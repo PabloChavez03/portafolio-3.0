@@ -2,16 +2,15 @@
 import Footer from '../components/widgets/footer.astro';
 import Hero from '../components/widgets/hero.astro';
 import Projects from "../components/widgets/projects.astro";
+import Technologies from '../components/widgets/technologies.astro';
 import Layout from '../layouts/layout.astro';
-
-import { SITE } from "../config";
-const {author} = SITE
 ---
 
-<Layout title={`Inicio | ${author}`}>
+<Layout>
 	<main>
 		<Hero />
 		<Projects />
+		<Technologies />
 		<Footer />
 	</main>
 </Layout>
