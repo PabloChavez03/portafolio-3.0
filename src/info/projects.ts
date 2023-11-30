@@ -64,7 +64,7 @@ export const PROJECTS = [
 
 export const CURRENT_PROJECT = {
   title: "Digital Hippo - Course",
-  description: "🛍️ Ecommerce de compra y venta de productos digitales",
+  description: "🛍️ Un moderno y completo e-commerce para productos digitales",
   // href: "https://webictionary.netlify.app/",
   repositoryUrl: "https://github.com/PabloChavez03/digitalhippo",
   techs: ["Next.js", "Typescript", "tRPC", "Payload", "Stripe", "Tailwind CSS"],
