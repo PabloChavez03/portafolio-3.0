@@ -1,0 +1,16 @@
+---
+import { CURRENT_PROJECT } from "../../info/projects";
+import Card from '../widgets/card-project.astro';
+
+const {title, description, repositoryUrl, techs} = CURRENT_PROJECT
+---
+
+<section id="projects" class="mx-auto max-w-6xl mb-8 p-4 lg:p-0">
+  <header class="mb-3 flex items-center space-x-4">
+    <h1 class="text-2xl font-semibold text-gray-300">Proyecto actual</h1>
+  </header>
+
+  <div class="grid grid-cols-1 gap-4">
+    <Card {title} {description} {repositoryUrl} {techs}/>
+  </div>
+</section>
