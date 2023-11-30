@@ -56,7 +56,7 @@ export const PROJECTS = [
   },
   {
     title: "Alkybank Wallet",
-    description: "👛 Alkybank es una billetera virtual de código abierto diseñada con fines de aprendiz",
+    description: "👛 Alkybank es una billetera virtual de código abierto diseñada con fines de aprendizaje",
     repositoryUrl: "https://github.com/PabloChavez03/Alkybank-Wallet",
     techs: ["MySQL", "Node.js", "Express", "Sequelize", "Mocha", "Chai"],
   }
