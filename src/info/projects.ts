@@ -59,6 +59,12 @@ export const PROJECTS = [
     description: "👛 Alkybank es una billetera virtual de código abierto diseñada con fines de aprendizaje",
     repositoryUrl: "https://github.com/PabloChavez03/Alkybank-Wallet",
     techs: ["MySQL", "Node.js", "Express", "Sequelize", "Mocha", "Chai"],
+  },
+  {
+    title: "Snake Game",
+    description: "🐍 Versión clásica del popular juego Snake, implementado en Vanilla Javascript.",
+    repositoryUrl: "https://github.com/PabloChavez03/snake-game",
+    techs: ["Vanilla Javascript", "HTML", "CSS"],
   }
 ];
 
